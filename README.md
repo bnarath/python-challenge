@@ -32,10 +32,35 @@ In addition, script should both print the analysis to the terminal and export a 
 ## Solution
 
 
-# PyBank
+
+
+# PyPoll
 
 <div style="text-align:center"><img src="images/Vote_counting.png"></div>
 
 
+## Dataset
+<a href=PyPoll/Resources/PyPoll_Resources_election_data.csv>Election  Data containg Voter ID, County, and Candidate</a>
 
+
+## Tasks
+
+Create a Python script that analyzes the votes and calculates each of the following:
+
+
+  - The total number of votes cast
+
+
+  - A complete list of candidates who received votes
+
+
+  - The percentage of votes each candidate won
+
+
+  - The total number of votes each candidate won
+
+
+  - The winner of the election based on popular vote.
+
+In addition, script should both print the analysis to the terminal and export a text file with the results.
 
