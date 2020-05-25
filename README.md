@@ -64,3 +64,13 @@ Create a Python script that analyzes the votes and calculates each of the follow
 
 In addition, script should both print the analysis to the terminal and export a text file with the results.
 
+
+# PyBoss
+
+<div style="text-align:center"><img src="images/PyBoss_Images_boss.jpg"></div>
+
+
+# PyParagraph
+
+<div style="text-align:center"><img src="images/PyParagraph_Images_language.png"></div>
+
