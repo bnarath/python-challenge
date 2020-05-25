@@ -34,7 +34,7 @@ In addition, script should both print the analysis to the terminal and export a 
 
 
 
-# PyBank
+# PyPoll
 
 <div style="text-align:center"><img src="images/Vote_counting.png"></div>
 
