@@ -66,11 +66,40 @@ In addition, script should both print the analysis to the terminal and export a 
 
 
 # PyBoss
-
+You get to be the boss !
 <div style="text-align:center"><img src="images/PyBoss_Images_boss.jpg"></div>
+
+You oversee hundreds of employees across the country developing Tuna 2.0, a world-changing snack food based on canned tuna fish. The company recently decided to purchase a new HR system, and the new system requires employee records be stored completely differently.
+
+## Dataset
+<a href=PyBoss/Resources/PyBoss_employee_data.csv>Employee data file holding employee records</a>
+
+## Tasks
+
+The required conversions are as follows:
+
+- The Name column should be split into separate First Name and Last Name columns.
+- The DOB data should be re-written into MM/DD/YYYY format.
+- The SSN data should be re-written such that the first five numbers are hidden from view.
+- The State data should be re-written as simple two-letter abbreviations.
 
 
 # PyParagraph
 
+You get to play the role of chief linguist at a local learning academy
 <div style="text-align:center"><img src="images/PyParagraph_Images_language.png"></div>
 
+As chief linguist, you are responsible for assessing the complexity of various passages of writing, ranging from the sophomoric Twilight novel to the nauseatingly high-minded research article. Having read so many passages, you've since come up with a fairly simple set of metrics for assessing complexity.
+
+
+## Tasks
+
+Create a Python script to automate the analysis of any such passage using these metrics. Your script will need to do the following:
+
+
+- Import a text file filled with a paragraph of your choosing.
+- Assess the passage for each of the following:
+  - Approximate word count
+  - Approximate sentence count
+  - Approximate letter count (per word)
+  - Average sentence length (in words)
