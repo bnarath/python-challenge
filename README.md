@@ -32,7 +32,7 @@ In addition, script should both print the analysis to the terminal and export a 
 ## Solution
 
 ### <a href=PyBank/main.py>Python code</a>:
-It performs all the tasks in [the above section](#task_pybank) and outputs the analysis on terminal as well as <a href=PyBank/analysis/PyBank_Analysis.txt>Analysis file</a> 
+It performs all the tasks in [the above section](#task_pybank) and outputs the analysis on terminal and to the <a href=PyBank/analysis/PyBank_Analysis.txt> analysis file</a> 
 
 
 
