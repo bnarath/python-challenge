@@ -8,7 +8,7 @@ Analyze the financial records of your company using Python Scripting
 <a href=PyBank/Resources/Python_Homework_Instructions_PyBank_Resources_budget_data.csv>Budget Data containg Date and Profit/Loss</a>
 
 
-## Tasks
+## <span id=task_pybank>Tasks</span>
 
 Create a Python script that analyzes the records to calculate each of the following:
 
@@ -31,6 +31,8 @@ In addition, script should both print the analysis to the terminal and export a 
 
 ## Solution
 
+### <a href=PyBank/main.py>Python code</a>:
+It performs all the tasks in [the above section](#task_pybank) and outputs the analysis on terminal and to the <a href=PyBank/analysis/PyBank_Analysis.txt> analysis file</a> 
 
 
 
