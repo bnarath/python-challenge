@@ -64,7 +64,7 @@ Winner:{winner[0]}\n\
     #print to the terminal
     print(print_output)
     #Write to the file
-    with open('analysis/PyPoll.txt', 'w') as output_file:
+    with open('analysis/PyPoll_Analysis.txt', 'w') as output_file:
         output_file.write(print_output)
 
 
