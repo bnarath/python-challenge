@@ -45,7 +45,7 @@ It performs all the tasks in [the above section](#task_pybank) and outputs the a
 <a href=PyPoll/Resources/PyPoll_Resources_election_data.csv>Election  Data containg Voter ID, County, and Candidate</a>
 
 
-## Tasks
+## <span id = task_pypoll>Tasks</span>
 
 Create a Python script that analyzes the votes and calculates each of the following:
 
@@ -66,6 +66,10 @@ Create a Python script that analyzes the votes and calculates each of the follow
 
 In addition, script should both print the analysis to the terminal and export a text file with the results.
 
+## Solution
+
+### <a href=PyPoll/main.py>Python code</a>:
+It performs all the tasks in [the above section](#task_pypoll) and outputs the analysis on terminal and to the <a href=PyPoll/analysis/PyPoll_Analysis.txt> analysis file</a> 
 
 # PyBoss
 You get to be the boss !
