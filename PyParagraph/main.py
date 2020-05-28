@@ -73,7 +73,19 @@ with open('Resources/sample.txt') as file:
     '''
 
     #Make a format string and write it to the file, also display it to the terminal
-    
+    content = "Paragraph Analysis\n\
+-----------------\n\
+Approximate Word Count: {}\n\
+Approximate Sentence Count: {}\n\
+Average Letter Count: {:.1f}\n\
+Average Sentence Length: {:.1f}\n\
+".format(word_count, sentence_count, avg_letter_count, avg_sentence_length)
+    #Output to the terminal
+    print(content)
+
+#Output to the file
+with open('analysis/PyParagraph_Analysis.txt', 'w') as output_file:
+    output_file.write(content)
 
 
     
