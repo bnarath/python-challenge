@@ -1,0 +1,5 @@
+#Don't track the files or folders below
+python_cheat_sheet.txt
+
+#Dont't track the backup files
+backup_*

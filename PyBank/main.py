@@ -4,14 +4,12 @@ import os
 
 
 #Change the current working directory to the location of the file main.py
-#print(os.path.abspath(__file__))
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-#print(os. getcwd())
 
 
 with open("Resources/budget_data.csv", 'r') as input_file:
     reader = csv.reader(input_file, delimiter=',')
-    header = next(reader, None) #reader is an iterator, next returns next value, if no next value, then None is returned
+    header = next(reader, None)
     
     
     #Initialize the required variables and update as we iterate through the rows
@@ -40,23 +38,21 @@ with open("Resources/budget_data.csv", 'r') as input_file:
     #Once the loop exits, the prev contains the last value and first contains the first value
     Average_Change = (prev-first)/(Total_Months-1) #Average of Total Changes
     
-    #Time for print
-    print(f"\
-Financial Analysis\n\
-----------------------------\n\
-Total Months: {Total_Months}\n\
-Total: ${Total}\n\
-Average  Change: ${round(Average_Change, 2)}\n\
-Greatest Increase in Profits: {GreatestProfit_WorstLoss[0]} (${GreatestProfit_WorstLoss[1]})\n\
-Greatest Decrease in Profits: {GreatestProfit_WorstLoss[2]} (${GreatestProfit_WorstLoss[3]}")
+    #Time for print: 
+    # Store the content first
 
-    #Time to store
-    with open("analysis/PyBank_Analysis.txt", "w") as output_file:
-        output_file.write(f"\
+content = f"\
 Financial Analysis\n\
 ----------------------------\n\
 Total Months: {Total_Months}\n\
 Total: ${Total}\n\
 Average  Change: ${round(Average_Change, 2)}\n\
 Greatest Increase in Profits: {GreatestProfit_WorstLoss[0]} (${GreatestProfit_WorstLoss[1]})\n\
-Greatest Decrease in Profits: {GreatestProfit_WorstLoss[2]} (${GreatestProfit_WorstLoss[3]}")
+Greatest Decrease in Profits: {GreatestProfit_WorstLoss[2]} (${GreatestProfit_WorstLoss[3]})\n"
+    
+#Print to the terminal
+print(content)
+
+#Time to store in the file
+with open("analysis/PyBank_Analysis.txt", "w") as output_file:
+    output_file.write(content)
