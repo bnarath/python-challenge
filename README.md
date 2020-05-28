@@ -89,6 +89,22 @@ The required conversions are as follows:
 - The SSN data should be re-written such that the first five numbers are hidden from view.
 - The State data should be re-written as simple two-letter abbreviations.
 
+Input Format
+```diff
+Emp ID,Name,DOB,SSN,State
+214,Sarah Simpson,1985-12-04,282-01-8166,Florida
+15,Samantha Lara,1993-09-08,848-80-7526,Colorado
+411,Stacy Charles,1957-12-20,658-75-8526,Pennsylvania
+```
+Output Format
+```diff
+Emp ID,First Name,Last Name,DOB,SSN,State
+214,Sarah,Simpson,12/04/1985,***-**-8166,FL
+15,Samantha,Lara,09/08/1993,***-**-7526,CO
+411,Stacy,Charles,12/20/1957,***-**-8526,PA
+```
+
+
 ### <a href=PyBoss/main.py>Python code</a>:
 It performs all the tasks in [the above section](#task_pyboss) and outputs the analysis to the <a href=PyBoss/analysis/PyBoss_Analysis.csv> csv file</a> 
 
