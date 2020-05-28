@@ -131,6 +131,6 @@ Create a Python script to automate the analysis of any such passage using these 
 ## Solution
 
 ### <a href=PyParagraph/main.py>Python code</a>:
-It performs all the tasks in [the above section](#task_pyparagraph) and outputs the analysis on terminal and to the <a href=PyParagraph/analysis/task_pyparagraph> analysis file</a> 
+It performs all the tasks in [the above section](#task_pyparagraph) and outputs the analysis on terminal and to the <a href=PyParagraph/analysis/PyParagraph_Analysis.txt> analysis file</a> 
 
   
