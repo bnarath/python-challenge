@@ -80,7 +80,7 @@ You oversee hundreds of employees across the country developing Tuna 2.0, a worl
 ## Dataset
 <a href=PyBoss/Resources/PyBoss_employee_data.csv>Employee data file holding employee records</a>
 
-## Tasks
+## <span id = task_pyboss>Tasks</span>
 
 The required conversions are as follows:
 
@@ -89,6 +89,8 @@ The required conversions are as follows:
 - The SSN data should be re-written such that the first five numbers are hidden from view.
 - The State data should be re-written as simple two-letter abbreviations.
 
+### <a href=PyBoss/main.py>Python code</a>:
+It performs all the tasks in [the above section](#task_pyboss) and outputs the analysis to the <a href=PyPoll/analysis/PyBoss_Analysis.txt> csv file</a> 
 
 # PyParagraph
 
