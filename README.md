@@ -106,7 +106,7 @@ Emp ID,First Name,Last Name,DOB,SSN,State
 
 
 ### <a href=PyBoss/main.py>Python code</a>:
-It performs all the tasks in [the above section](#task_pyboss) and outputs the analysis to the <a href=PyBoss/analysis/PyBoss_Analysis.csv> csv file</a> 
+It performs all the tasks in [the above section](#task_pyboss) and outputs to the <a href=PyBoss/analysis/PyBoss_Analysis.csv> csv file</a> 
 
 # PyParagraph
 
