@@ -116,7 +116,7 @@ You get to play the role of chief linguist at a local learning academy
 As chief linguist, you are responsible for assessing the complexity of various passages of writing, ranging from the sophomoric Twilight novel to the nauseatingly high-minded research article. Having read so many passages, you've since come up with a fairly simple set of metrics for assessing complexity.
 
 
-## Tasks
+## <span id = task_pyparagraph>Tasks</span>
 
 Create a Python script to automate the analysis of any such passage using these metrics. Your script will need to do the following:
 
@@ -127,3 +127,10 @@ Create a Python script to automate the analysis of any such passage using these 
   - Approximate sentence count
   - Approximate letter count (per word)
   - Average sentence length (in words)
+  
+## Solution
+
+### <a href=PyParagraph/main.py>Python code</a>:
+It performs all the tasks in [the above section](#task_pyparagraph) and outputs the analysis on terminal and to the <a href=PyParagraph/analysis/task_pyparagraph> analysis file</a> 
+
+  
