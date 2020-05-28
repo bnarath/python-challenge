@@ -90,7 +90,7 @@ The required conversions are as follows:
 - The State data should be re-written as simple two-letter abbreviations.
 
 ### <a href=PyBoss/main.py>Python code</a>:
-It performs all the tasks in [the above section](#task_pyboss) and outputs the analysis to the <a href=PyPoll/analysis/PyBoss_Analysis.txt> csv file</a> 
+It performs all the tasks in [the above section](#task_pyboss) and outputs the analysis to the <a href=PyPoll/analysis/PyBoss_Analysis.csv> csv file</a> 
 
 # PyParagraph
 
