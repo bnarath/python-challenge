@@ -34,6 +34,7 @@ with open('Resources/sample.txt') as file:
     #Word Count
     #Logic
     #Words are separated by one or more \s
+    #Please not that, frock-coat is a word not two words
     words = re.split("\s+", reader)
     word_count = len(words)
     
